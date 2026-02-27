@@ -340,7 +340,7 @@ Materials: 2
 0.000000 0.000000 0.000000 1.000000
 12.799999
 1.000000
-"textures\Tap Shell 4th ani texture.ini"
+"textures\Tap Shine 4th ani texture.ini"
 ""
 
 Bones: 0
