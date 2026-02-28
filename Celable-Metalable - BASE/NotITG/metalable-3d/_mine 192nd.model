@@ -1,4 +1,4 @@
 [Model]
 Meshes=_mine meshes.txt
 Materials=_mine materials 192nd.txt
-Bones=../default/_mine bones.txt
+Bones=_mine bones.txt
