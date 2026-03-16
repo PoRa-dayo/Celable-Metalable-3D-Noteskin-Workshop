@@ -3,7 +3,7 @@
 Frames: 30
 Frame: 1
 
-Meshes: 4
+Meshes: 3
 "stealthboi" 0 0
 18
 3 -26.456827 1.516296 4.051885 0.055759 0.498951 -1
