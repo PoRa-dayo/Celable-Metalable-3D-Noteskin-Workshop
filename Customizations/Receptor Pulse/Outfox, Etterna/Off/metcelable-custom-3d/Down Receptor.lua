@@ -14,7 +14,6 @@ local t = Def.ActorFrame {
 		Frame0003=3;
 		Delay0003=1;
 		InitCommand=function(self)
-			self:effectclock("beat"):diffuseramp():effectcolor1(0.1,0.1,0.1,1):effectcolor2(1,1,1,1):effectperiod(0.5):effecttiming(0.25,0.50,0,0.25):effectoffset(-0.25)
 		end;
 		NoneCommand=NOTESKIN:GetMetricA("ReceptorArrow", "NoneCommand");
 		PressCommand=NOTESKIN:GetMetricA("ReceptorArrow", "PressCommand");
