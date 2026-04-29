@@ -1,3 +1,19 @@
+ABRIDGED SUITE: 
+- Arrow Center Animation: On
+- Arrows: Excel+/Exmetal+ Basic
+- Hold Explosions: Minimal White
+- Holds: DDR Hold
+- Mine Settings:
+    + Center Animation: On
+    + Rotation: On - Beta
+    + Size: Normal
+- Mines: Beta Default
+- Receptor Animation: On - Default
+- Receptors: Frame Gray
+- Rolls: ITG Note Roll
+- Tap Explosions: Glow ITG
+
+
 DEFAULT SUITE: 
 - Arrow Center Animation: On
 - Arrows: ITG
@@ -44,6 +60,38 @@ BEJEWELED 2 SUITE:
 - Receptors: Crystallis/Ionic Copper
 - Rolls: VIP Ice
 - Tap Explosions: Spark ITG
+
+
+HIGHLIGHTED SUITE: 
+- Arrow Center Animation: On
+- Arrows: Lemma DDRainbow Vibrant Animated
+- Hold Explosions: Minimal Vapor
+- Holds: Ocean
+- Mine Settings:
+    + Center Animation: On
+    + Rotation: On - ITG
+    + Size: Mini
+- Mines: ITG Unquantized Falspawn Inverted
+- Receptor Animation: On - Default
+- Receptors: Traditional Pink
+- Rolls: ITG Fire Shadow
+- Tap Explosions: Spark ITG
+
+
+INVERSED SUITE: 
+- Arrow Center Animation: On
+- Arrows: Lucid Addition
+- Hold Explosions: Minimal Falspawn
+- Holds: Halloween Shadow
+- Mine Settings:
+    + Center Animation: On
+    + Rotation: On - ITG
+    + Size: Normal
+- Mines: ITG Unquantized lateM
+- Receptor Animation: On - Default
+- Receptors: Traditional Purple
+- Rolls: ITG DDR Hold Shadow
+- Tap Explosions: Glow ITG
 
 
 REINFORCED SUITE: 

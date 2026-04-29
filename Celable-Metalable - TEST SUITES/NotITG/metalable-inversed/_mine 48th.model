@@ -1,0 +1,4 @@
+[Model]
+Meshes=_mine meshes.txt
+Materials=_mine materials 48th.txt
+Bones=_mine bones.txt
