@@ -106,7 +106,7 @@ POLISHED SUITE:
 - Mines: ITG Unquantized Orange -REFLECTIVE- Vibrant
 - Receptor Animation: On - Default
 - Receptors: Frame Christmas
-- Rolls: ITG Falspawn
+- Rolls: ITG Falspawn Shadow
 - Tap Explosions: Spark ITG
 
 
@@ -127,3 +127,6 @@ REINFORCED SUITE:
 
 
 SELLABLE SUITE:
+
+
+SIMPLIFIED SUITE:
