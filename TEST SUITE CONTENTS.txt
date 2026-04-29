@@ -68,12 +68,12 @@ HIGHLIGHTED SUITE:
 - Hold Explosions: Minimal Vapor
 - Holds: Ocean
 - Mine Settings:
-    + Center Animation: On
+    + Center Animation: Off
     + Rotation: On - ITG
-    + Size: Mini
-- Mines: ITG Unquantized Falspawn Inverted
+    + Size: Normal
+- Mines: ArrowVortex Default P1
 - Receptor Animation: On - Default
-- Receptors: Traditional Pink
+- Receptors: Traditional D A N K
 - Rolls: ITG Fire Shadow
 - Tap Explosions: Spark ITG
 
@@ -86,11 +86,27 @@ INVERSED SUITE:
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
-    + Size: Normal
+    + Size: Mini
 - Mines: ITG Unquantized lateM
 - Receptor Animation: On - Default
 - Receptors: Traditional Purple
 - Rolls: ITG DDR Hold Shadow
+- Tap Explosions: Glow ITG
+
+
+OUTLINED SUITE:
+- Arrow Center Animation: On
+- Arrows: Dev Toon
+- Hold Explosions: Minimal Red
+- Holds: Toon Default
+- Mine Settings:
+    + Center Animation: On
+    + Rotation: On - ITG
+    + Size: Normal
+- Mines: Toon Purple
+- Receptor Animation: On - Default
+- Receptors: Frame Blue
+- Rolls: Toon Default
 - Tap Explosions: Glow ITG
 
 
@@ -126,7 +142,17 @@ REINFORCED SUITE:
 - Tap Explosions: Glow ITG
 
 
-SELLABLE SUITE:
-
-
-SIMPLIFIED SUITE:
+SELLABLE SUITE: (haha get it)
+- Arrow Center Animation: On
+- Arrows: Bright -FLATSHINE- Gold
+- Hold Explosions: Glow Yellow
+- Holds: Gold Shadow
+- Mine Settings:
+    + Center Animation: On
+    + Rotation: On - ITG
+    + Size: Mini
+- Mines: ITG Unquantized Default P1 -FLATSHINE- Gold
+- Receptor Animation: On - Default
+- Receptors: Traditional Gold
+- Rolls: ITG Gold
+- Tap Explosions: Spark Rainbowmatic

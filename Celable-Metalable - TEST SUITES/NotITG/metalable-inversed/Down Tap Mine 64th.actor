@@ -1,3 +1,4 @@
 [Actor]
 
 File=_mine 64th
+InitCommand=basezoomx,0.8;basezoomy,0.8
