@@ -116,10 +116,10 @@ REINFORCED SUITE:
 - Hold Explosions: Minimal Ocean
 - Holds: Default Encore/Shadow
 - Mine Settings:
-    + Center Animation: On
+    + Center Animation: Off
     + Rotation: On - ITG
     + Size: Normal
-- Mines: ITG Unquantized Default P1 -REFLECTIVE-
+- Mines: ArrowVortex Default P1
 - Receptor Animation: On - Default
 - Receptors: Traditional White
 - Rolls: ITG Default Encore
