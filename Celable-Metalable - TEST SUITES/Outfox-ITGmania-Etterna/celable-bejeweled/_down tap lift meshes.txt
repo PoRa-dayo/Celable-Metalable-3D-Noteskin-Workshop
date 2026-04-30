@@ -325,7 +325,7 @@ Materials: 3
 0.000000 0.000000 0.000000 1.000000
 12.799999
 1.000000
-"textures/Tap Lift parts (mipmaps).png"
+"textures/Tap Lift Shell parts (mipmaps).png"
 ""
 "shine"
 0.588235 0.588235 0.588235 1.000000
