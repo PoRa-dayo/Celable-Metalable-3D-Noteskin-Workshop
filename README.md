@@ -23,8 +23,8 @@ https://github.com/user-attachments/assets/0843cdd7-2607-4b81-a081-bfa920e6ab0f
 These contain the base default variant of the Celable and Metalable noteskin, which look like this in-game:
 
 
-<img width="1200" height="900" alt="Celable" src="https://github.com/user-attachments/assets/ec87fcc7-1edc-473d-8c5d-28c32902652e" />
-<img width="1200" height="900" alt="Metalable-ezgif com-optimize" src="https://github.com/user-attachments/assets/c1063dd7-da37-4952-83d5-064356893406" />
+<img width="600" height="450" alt="Celable" src="https://github.com/user-attachments/assets/ec87fcc7-1edc-473d-8c5d-28c32902652e" />
+<img width="600" height="450" alt="Metalable-ezgif com-optimize" src="https://github.com/user-attachments/assets/c1063dd7-da37-4952-83d5-064356893406" />
 
 
 
