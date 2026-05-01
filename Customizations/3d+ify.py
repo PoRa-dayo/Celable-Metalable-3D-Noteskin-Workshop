@@ -17,7 +17,7 @@ def invert_number_str(num_str):
     else:
         return '-' + num_str
 
-path = input("\033[91mNOTE: 3D+ (two-sided) NOTESKINS CAN CAUSE UNEXPECTED BEHAVIORS ON NotITG MODCHARTS OR ITS PORTS!!!\n\033[92m>>> Behold, the 3D+-ify-inator!\n>>> This script will replace an arrow/lift Milkshape ASCII.txt file from a 3D (one-sided) noteskin with a 3D+ (two-sided) version of it.\nEnter path to the arrow/lift Milkshape ASCII .txt file: \033[0m ").strip('"')
+path = input("\033[91mNOTE: 3D+ (two-sided) NOTESKINS CAN CAUSE UNEXPECTED BEHAVIORS ON NotITG MODCHARTS OR ITS PORTS!!!\n\033[92m>>> Behold, the 3D+-ify-inator!\n>>> This script will replace an arrow/lift mesh.txt file from a 3D (one-sided) noteskin with a 3D+ (two-sided) version of it.\nEnter path to the arrow/lift mesh.txt file: \033[0m ").strip('"')
 
 with open(path, 'r', encoding='utf-8') as f:
     lines = f.readlines()
