@@ -14,6 +14,15 @@ This workshop is made for use in NotITG/ITGmania/Outfox/Etterna.
 
 *(Scroll down to the Overview section for an overview of the features in this workshop, as well as some previews)*
 
+# DIY Package
+But before we get to the installation, are you interested in these sweet HD renders of Celable and Metalable arrows?
+
+<img width="256" height="256" alt="celable_shell" src="https://github.com/user-attachments/assets/5375ea5f-4029-4ace-a7f1-e5e11eb16591" />
+<img width="256" height="256" alt="metalable_shell" src="https://github.com/user-attachments/assets/23718cbd-cc5f-4f16-a97f-756380e26ad1" />
+<img width="256" height="512" alt="ITG_scroller_4th" src="https://github.com/user-attachments/assets/7544c7f7-e934-4260-a186-a782c4da5def" />
+
+Or HD renders of the Mines? Or templates for making your own holds and rolls? Well you're in luck, 'cause they're all available for download in the [releases page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases)! Have fun!
+
 # Installation
 - Go into the "Celable-Metalable - BASE" folder, and select the folder of the game you want to install the noteskin in ("NotITG" or "Outfox-ITGmania-Etterna"). Install the noteskin by copying the "celable-3d", "metalable-3d" and "metcelable-custom-3d" folders placed inside the folder of the game you chose. Inside your NotITG/ITGmania/Etterna game folder, paste them in "NoteSkins"/"dance" (if the game is Outfox, it will be in "Appearance"/"NoteSkins"/"dance").
 
