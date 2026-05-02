@@ -1,4 +1,4 @@
-<img width="822" height="403" alt="logo" src="https://github.com/user-attachments/assets/a60739b5-bf29-465f-a0c4-7fd5beee2c75" />
+<img width="822" height="403" alt="logo" src="https://github.com/user-attachments/assets/9da63774-6378-4b3a-b3f8-65d3215794c5" />
 
 *Check the trailer video [here](https://www.youtube.com/watch?v=xnQtZBazoqs).*
 
