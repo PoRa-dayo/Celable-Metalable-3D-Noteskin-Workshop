@@ -31,10 +31,6 @@ These contain the base default variant of the Celable and Metalable noteskin, wh
 
 - There are also Test Suites in the "Celable-Metalable - TEST SUITES" folder. Test Suites are variants of the noteskin, that have arrows, holds, rolls, receptors, etc. fully customized beforehand. You can install the Test Suite you want in "NoteSkins"/"dance" (or "Appearance"/"NoteSkins"/"dance" in Outfox) to quickly have a bunch of fully customized variants that you can try out without having to spend time browsing and tinkering. You can check the preview of each Test Suite inside the "Previews" folder.
 
-https://github.com/user-attachments/assets/1337ad94-d81e-418a-a87c-fdd410499029
-
-
-
 
 https://github.com/user-attachments/assets/90121cac-8983-48ad-bb33-f9c55d8b8eb4
 
