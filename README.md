@@ -4,7 +4,7 @@
 
 *Check my other noteskins [here](https://github.com/PoRa-dayo/PoRa-Noteskins).*
 
-Based on [HURG's Cel and Metal Noteskin Workshop](https://github.com/HURG-IIDX/Noteskin-Workshop-Cel-and-Metal).
+Based on [HURG's Cel and Metal Noteskin Workshop for ITGMania](https://github.com/HURG-IIDX/Noteskin-Workshop-Cel-and-Metal).
 
 Welcome to the "Noteskin Workshop" for "Celable" and "Metalable", noteskins that aim to accurately recreate the original Cel and Metal noteskins, as well as almost every other recreation of Cel and Metal ever made, in HD scalable quality. The noteskin is made to be compatible with ITG modcharting. Just about every aspect of the noteskin can be customized. All customization options have preview images that can be browsed in the "previews" folder. Please note that preview images are almost entirely presented at a lower resolution than the actual assets of the noteskin to help reduce download size.
 
@@ -17,7 +17,8 @@ This workshop is made for use in NotITG/ITGmania/Outfox/Etterna.
 # Installation
 - Go into the "Celable-Metalable - BASE" folder, and select the folder of the game you want to install the noteskin in ("NotITG" or "Outfox-ITGmania-Etterna"). Install the noteskin by copying the "celable-3d", "metalable-3d" and "metcelable-custom-3d" folders placed inside the folder of the game you chose. Inside your NotITG/ITGmania/Etterna game folder, paste them in "NoteSkins"/"dance" (if the game is Outfox, it will be in "Appearance"/"NoteSkins"/"dance").
 
-https://github.com/user-attachments/assets/0843cdd7-2607-4b81-a081-bfa920e6ab0f
+
+https://github.com/user-attachments/assets/eb4493ad-075d-4c7b-b586-91bba4503836
 
 
 These contain the base default variant of the Celable and Metalable noteskin, which look like this in-game:
@@ -30,8 +31,12 @@ These contain the base default variant of the Celable and Metalable noteskin, wh
 
 - There are also Test Suites in the "Celable-Metalable - TEST SUITES" folder. Test Suites are variants of the noteskin, that have arrows, holds, rolls, receptors, etc. fully customized beforehand. You can install the Test Suite you want in "NoteSkins"/"dance" (or "Appearance"/"NoteSkins"/"dance" in Outfox) to quickly have a bunch of fully customized variants that you can try out without having to spend time browsing and tinkering. You can check the preview of each Test Suite inside the "Previews" folder.
 
+https://github.com/user-attachments/assets/1337ad94-d81e-418a-a87c-fdd410499029
 
-https://github.com/user-attachments/assets/00fce5f8-25d0-49dd-8daa-b94c867b050d
+
+
+
+https://github.com/user-attachments/assets/90121cac-8983-48ad-bb33-f9c55d8b8eb4
 
 
 
@@ -57,9 +62,10 @@ https://github.com/user-attachments/assets/e6c9cb00-0f90-4e46-a68a-85fa3d004dd3
 - Copy the "metcelable-custom-3d" folder.
 - In your NotITG/ITGmania/Etterna game folder, go to "NoteSkins"/"dance" folder (or in the Outfox game folder, go to "Appearance"/"NoteSkins"/"dance" folder), then paste the folder and replace files, then restart the game to apply the variant.
 
-Example video applying the "" arrow variant to "metcelable-custom-3d":
+Example video applying the "Metalable ITG TD Vibrant" arrow variant to "metcelable-custom-3d":
 
-https://github.com/user-attachments/assets/b303d26f-6c97-42a8-b042-37ea6b412453
+
+https://github.com/user-attachments/assets/d422b059-479f-47c9-ade8-34d0110d36df
 
 
 
@@ -71,7 +77,9 @@ For more than a decade there had been numerous attempts to make higher quality v
 
 It first started as a joke I had with recreating the original Cel accurately in HD scalable quality and calling it Celable, just to make things extra confusing! Eventually it became this workshop as I start to find other recreations of Cel and Metal people have made over the years and attempt to recreate them all.
 
-The variants that really caught my attention were Ionic and Crystallis. These are pretty much just the original Cel and Metal, but with a lot of Bevel effect applied to them to make them extra shiny. Since the textures for fully scalable noteskins are just colors, obviously you can't just Bevel these textures. But then I noticed that all Bevel did was putting a whole lot of shiny gradients to the original image, and so that's exactly what I did. The Ionic and Crystallis recreations here also reuse the original Celable and Metalable meshes, but with a whole lot of shiny gradients in their textures.
+The variants that really caught my attention were Ionic and Crystallis, made by VirInPro. These are pretty much just the original Cel and Metal, but with a lot of Bevel effect applied to them to make them extra shiny. Since the textures for fully scalable noteskins are just colors, obviously you can't just Bevel these textures. But then I noticed that all Bevel did was putting a whole lot of shiny gradients to the original image, and so that's exactly what I did. The Ionic and Crystallis recreations here also reuse the original Celable and Metalable meshes, but with a whole lot of shiny gradients in their textures.
+
+The Encore variants were recreations of the doubleres Cel and Metal noteskin remakes in In The Groove 3: Encore. The HURG Metalable variant, as well as multiple Plain variants, originated from HURG's Cel and Metal Noteskin Workshop. The Basic variants were recreations of old 2D recreations of Cel and Metal. The Toon variants originated from DivineJayce's Toon noteskin (he still uses that noteskin to this day).
 
 ## Arrows
 There are a lot of arrow customization options (over 250 each for Celable and Metalable!) including color sets for ITG, Dev, DivideByZero, Excel+, Magnetic, Rainbow, Vivid, and other color schemes seen on other existing variants of Cel and Metal. By default the skin uses the "ITG" color set. Each color set also has multiple arrow type variations based on existing recreations of Cel and Metal (Basic, Contrast, Encore, Vibrant, Simple, etc.).
