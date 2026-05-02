@@ -81,13 +81,14 @@ The Encore variants were recreations of the doubleres Cel and Metal noteskin rem
 There are a lot of arrow customization options (over 250 each for Celable and Metalable!) including color sets for ITG, Dev, DivideByZero, Excel+, Magnetic, Rainbow, Vivid, and other color schemes seen on other existing variants of Cel and Metal. By default the skin uses the "ITG" color set. Each color set also has multiple arrow type variations based on existing recreations of Cel and Metal (Basic, Contrast, Encore, Vibrant, Simple, etc.).
 In the "Previews" folder, there are animated GIF previews of every arrow option, except the unanimated ones which are presented with static PNG images. Every arrow preview image has labels for each quantization. As an example, here is the preview image for the default ITG arrow set.
 
-![ITG](https://github.com/user-attachments/assets/7aa7bb46-cc4f-4ed5-b0c3-8da67bb227b6)
+
+
 
 The scrolling animation at the arrow's center can be switched on or off.
 
 Outside of NotITG, this noteskin also supports lifts. There are a few lift types for both Celable and Metalable, these colors should be visually distinct for whataver arrow customization you use. By default, they come with the spectrum versions. Here is a preview of some of the lift animations:
 
-![ezgif com-webp-maker](https://github.com/user-attachments/assets/75ca1547-dd49-45a4-9fcc-497f46c8a870)
+
 
 
 ## Explosions
@@ -95,7 +96,15 @@ Outside of NotITG, this noteskin also supports lifts. There are a few lift types
 
 Tap explosions can be customized to different match different judgement color sets. By default it comes with the "ITG" Glow color set, but there are options for things like Rainbowmatic and Waterfall and a few others. There is also an "all white" option if you prefer your tap explosions to be color neutral. Tap explosions come in 3 variants per color set: Spark (X shaped like a DDR tap explosion), Glow (similar to the default ITG Cel/Metal noteskin tap explosions) and Minimal (similar to glow but with a smaller area). There are Celable and Metalable versions of every set. By default the skins come with the ITG Glow tap explosions. You can also disable tap explosions entirely with the "no explosions" customization option. Here is a preview of some of the tap explosion options:
 
+
+<img width="1222" height="693" alt="ezgif com-webp-maker" src="https://github.com/user-attachments/assets/98de107a-4389-426e-b8df-95727da6f849" />
+
+
 Hold explosions can be color customized to many different color options and also come in the same 3 variations as tap explosions (Spark, Glow, and Minimal). There are Celable and Metalable versions of every option. By default the skin uses the "Default" minimal color option. You can also disable hold explosions entirely with the "no explosions" customization option. Here is a preview image of some of the hold explosion options:
+
+
+<img width="1217" height="383" alt="ezgif com-webp-receptor" src="https://github.com/user-attachments/assets/94cdceca-8ca9-404b-817e-e5dcb5944357" />
+
 
 ## Holds and Rolls
 Holds and rolls (active and inactive) can be color customized. Every color option for ITG-styled holds/rolls has a standard and shadow version. There are also Ionic/Crystallis-styled holds/rolls which use their own color schemes, as well as Toon-styled ones based on the Toon noteskin. Feel free to mix and match different options! By default the noteskin uses the ITG-styled "default" color options for both holds and rolls. Here is a preview image of some of the hold and roll options:
