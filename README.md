@@ -133,7 +133,7 @@ The animation in the center of the mines, as well as the mines' rotation, can be
 
 
 ## Receptors
-Receptors can be color customized and there are two types (Frame and Traditional) for both Celable and Metalable, and each one has numerous color options. Here are preview images of some receptor options:
+Receptors can be color customized and there are two types (Frame and Traditional) for both Celable and Metalable, as well as receptors for Crystallis and Ionic, and each one has numerous color options. Here are preview images of some receptor options:
 
 <img width="128" height="128" alt="Blue" src="https://github.com/user-attachments/assets/da292a23-f96c-41c6-8a4d-a6b6d2de9d6a" />
 <img width="128" height="128" alt="Amethyst" src="https://github.com/user-attachments/assets/8aa09af4-1f99-4ffb-a253-b2554f1edb15" />
