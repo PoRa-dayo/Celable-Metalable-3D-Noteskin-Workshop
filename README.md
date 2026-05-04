@@ -99,8 +99,10 @@ In the "Previews" folder, there are animated GIF previews of every arrow option,
 The scrolling animation at the arrow's center can be switched on or off.
 
 Outside of NotITG, this noteskin also supports lifts. There are a few lift types for both Celable and Metalable, these colors should be visually distinct for whataver arrow customization you use. By default, they come with the spectrum versions. Here is a preview of some of the lift animations:
-
-
+<img width="150" height="172" alt="Celable - Hollowed Spectrum" src="https://github.com/user-attachments/assets/169da97d-630f-44a4-afea-933bd0aeb867" />
+<img width="150" height="172" alt="Celable - Chrome" src="https://github.com/user-attachments/assets/8c10d737-8e46-4725-9580-211b9dae0782" />
+<img width="150" height="172" alt="Metalable - Hollowed Spectrum" src="https://github.com/user-attachments/assets/717c29ec-04eb-430b-b35e-0788b2da45ce" />
+<img width="150" height="172" alt="Metalable - Redline" src="https://github.com/user-attachments/assets/7626dacf-503d-4257-9ce9-1c12d67adace" />
 
 
 ## Explosions
