@@ -109,18 +109,21 @@ Outside of NotITG, this noteskin also supports lifts. There are a few lift types
 Tap explosions can be customized to different match different judgement color sets. By default it comes with the "ITG" Glow color set, but there are options for things like Rainbowmatic and Waterfall and a few others. There is also an "all white" option if you prefer your tap explosions to be color neutral. Tap explosions come in 3 variants per color set: Spark (X shaped like a DDR tap explosion), Glow (similar to the default ITG Cel/Metal noteskin tap explosions) and Minimal (similar to glow but with a smaller area). There are Celable and Metalable versions of every set. By default the skins come with the ITG Glow tap explosions. You can also disable tap explosions entirely with the "no explosions" customization option. Here is a preview of some of the tap explosion options:
 
 
-<img width="1222" height="693" alt="ezgif com-webp-maker" src="https://github.com/user-attachments/assets/98de107a-4389-426e-b8df-95727da6f849" />
+<img width="611" height="347" alt="ezgif com-webp-maker" src="https://github.com/user-attachments/assets/98de107a-4389-426e-b8df-95727da6f849" />
 
 
 Hold explosions can be color customized to many different color options and also come in the same 3 variations as tap explosions (Spark, Glow, and Minimal). There are Celable and Metalable versions of every option. By default the skin uses the "Default" minimal color option. You can also disable hold explosions entirely with the "no explosions" customization option. Here is a preview image of some of the hold explosion options:
 
 
-<img width="1217" height="383" alt="ezgif com-webp-receptor" src="https://github.com/user-attachments/assets/94cdceca-8ca9-404b-817e-e5dcb5944357" />
+<img width="609" height="192" alt="ezgif com-webp-receptor" src="https://github.com/user-attachments/assets/94cdceca-8ca9-404b-817e-e5dcb5944357" />
 
 
 ## Holds and Rolls
-Holds and rolls (active and inactive) can be color customized. Every color option for ITG-styled holds/rolls has a standard and shadow version. There are also Ionic/Crystallis-styled holds/rolls which use their own color schemes, as well as Toon-styled ones based on the Toon noteskin. Feel free to mix and match different options! By default the noteskin uses the ITG-styled "default" color options for both holds and rolls. Here is a preview image of some of the hold and roll options:
-
+Holds and rolls (active and inactive) can be color customized. Every color option for ITG-styled holds/rolls has a standard and shadow version. There are also Ionic/Crystallis-styled holds/rolls which use their own color schemes, as well as Toon-styled ones based on the Toon noteskin. Feel free to mix and match different options! By default the noteskin uses the ITG-styled "default" color options for both holds and rolls. Here are some preview images of some of the hold and roll options:
+<img width="375" height="470" alt="Default" src="https://github.com/user-attachments/assets/136e5e4e-1ae6-4fdf-b1b4-2f448a462913" />
+<img width="375" height="470" alt="RGB Shadow" src="https://github.com/user-attachments/assets/90348b7d-6ca3-49d1-89c2-dd4ec5f90bb7" />
+<img width="375" height="470" alt="Default P1" src="https://github.com/user-attachments/assets/348226e6-698f-48ed-ad8a-85289247d58d" />
+<img width="375" height="470" alt="Gold" src="https://github.com/user-attachments/assets/139e2009-a722-4149-98ab-6e14c6aecaac" />
 
 ## Mines
 Mines can be color customized, and come in ITG, ArrowVortex, Beta (SM3.9), Dot, Toon and VIP (Crystallis/Ionic) variants. For ITG variants, for every color option there is a regular, inverted and vibrant option. The ITG and VIP mines can also be quantized to a few common arrow color schemes (as the 1033 noteskin originally had that). By default the skin uses the "Default" color option. Here is a preview image of some of the mine color options:
@@ -130,13 +133,22 @@ The animation in the center of the mines, as well as the mines' rotation, can be
 
 
 ## Receptors
-Receptors can be color customized and there are two types (Frame and Traditional) for both Cel and Metal, and each one has numerous color options Here are preview images of some of the Frame Receptor color options:
+Receptors can be color customized and there are two types (Frame and Traditional) for both Celable and Metalable, and each one has numerous color options. Here are preview images of some receptor options:
 
+<img width="128" height="128" alt="Blue" src="https://github.com/user-attachments/assets/da292a23-f96c-41c6-8a4d-a6b6d2de9d6a" />
+<img width="128" height="128" alt="Amethyst" src="https://github.com/user-attachments/assets/8aa09af4-1f99-4ffb-a253-b2554f1edb15" />
+<img width="128" height="128" alt="Ocean" src="https://github.com/user-attachments/assets/a5a5a61c-f772-447f-bea2-9700c1e2de1f" />
+<img width="128" height="128" alt="Gold" src="https://github.com/user-attachments/assets/6197d162-d125-4f41-9fc1-cea40d3b7483" />
+<img width="128" height="128" alt="Vapor" src="https://github.com/user-attachments/assets/0e136989-cf8f-475e-a8ad-895720912c5d" />
+<img width="128" height="128" alt="Halloween" src="https://github.com/user-attachments/assets/31ef3fe0-a211-461f-ac32-c1fc24db30f6" />
 
-Here are preview images of some of the Traditional Receptor color options:
+The receptor pulse that makes the receptors blink on beat can also be toggled on and off as well via the Receptor Animation customization folder. You can also apply the rainbow animation from the Rainbow noteskin.
 
+<img width="195" height="177" alt="On - Default" src="https://github.com/user-attachments/assets/0599b5d8-ba09-4310-b6b6-2239ff2d839f" />\
+<img width="195" height="177" alt="Off - No Pulse" src="https://github.com/user-attachments/assets/26f36c51-99d7-434c-9b46-a57c763be67e" />
+<img width="195" height="177" alt="Off - Fully Static" src="https://github.com/user-attachments/assets/730b7660-851e-409d-a5f5-df34bc33332d" />
+<img width="195" height="177" alt="On - Rainbow" src="https://github.com/user-attachments/assets/c6ae89eb-af50-4027-8d92-e55d396802f3" />
 
-The receptor pulse that makes the receptors blink on beat can also be toggled on and off as well.
 
 ## Special Thanks
 - [HURG](https://github.com/HURG-IIDX) - creator of the Cel and Metal noteskin workshop and a bunch of other noteskins.
