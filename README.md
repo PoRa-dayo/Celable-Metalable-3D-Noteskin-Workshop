@@ -1,3 +1,5 @@
+*NOTE: You can use these for anything you want, with or without credit, so don't bother asking me for permission. Thank you and have fun.*
+
 <img width="822" height="403" alt="logo" src="https://github.com/user-attachments/assets/9da63774-6378-4b3a-b3f8-65d3215794c5" />
 
 *Check the trailer video [here](https://www.youtube.com/watch?v=xnQtZBazoqs).*
@@ -88,6 +90,8 @@ It first started as a joke I had with recreating the original Cel accurately in 
 The variants that really caught my attention were Ionic and Crystallis, made by VirInPro. These are pretty much just the original Cel and Metal, but with a lot of Bevel effect applied to them to make them extra shiny. Since the textures for fully scalable noteskins are just colors, obviously you can't just Bevel these textures. But then I noticed that all Bevel did was putting a whole lot of shiny gradients to the original image, and so that's exactly what I did. The Ionic and Crystallis recreations here also reuse the original Celable and Metalable meshes, but with a whole lot of shiny gradients in their textures.
 
 The Encore variants were recreations of the doubleres Cel and Metal noteskin remakes in In The Groove 3: Encore. The HURG Metalable variant, as well as multiple Plain variants, originated from HURG's Cel and Metal Noteskin Workshop. The Basic variants were recreations of old 2D recreations of Cel and Metal. The Toon variants originated from DivineJayce's Toon noteskin (he still uses that noteskin to this day). The Rainbow and lateM color schemes originated from noteskins of the same names made by WinDEU. Magnetic originated from an effect used for the modfile "Magnetic" by WinDEU in D.O.W.N.S. 4.
+
+There are also -REFLECTIVE- and -FLATSHINE- arrow/mine types that utilize spheremaps. It's a bit experimental since not a lot of noteskins used it, but from what I've seen it should work fine in most simfiles.
 
 ## Arrows
 There are a lot of arrow customization options (over 250 each for Celable and Metalable!) including color sets for ITG, Dev, DivideByZero, Excel+, Magnetic, Rainbow, Vivid, and other color schemes seen on other existing variants of Cel and Metal. By default the skin uses the "ITG" color set. Each color set also has multiple arrow type variations based on existing recreations of Cel and Metal (Basic, Contrast, Encore, Vibrant, Simple, etc.).
