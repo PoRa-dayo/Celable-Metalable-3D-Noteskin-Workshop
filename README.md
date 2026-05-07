@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/e6c9cb00-0f90-4e46-a68a-85fa3d004dd3
 
 
 
-*You can change your default settings for NotITG (including default noteskin) by going to the NotITG game folder, and open and edit Data/GamePrefs.ini.*
+*You can change your default settings for NotITG (including default noteskin) by going to the NotITG game folder, and open and edit Data/GamePrefs.ini. The default noteskin is called "scalable".*
 
 *You can change your default settings for Outfox (including default noteskin) in-game by going to the main menu, select Options -> User Experience -> Appearance Options.*
 
