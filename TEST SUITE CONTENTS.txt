@@ -146,7 +146,7 @@ REINFORCED SUITE:
 - Arrow Center Animation: On
 - Arrows: Bright Encore
 - Hold Explosions: Minimal Ocean
-- Holds: Default Encore/Shadow
+- Holds: Default Shadow (Celable) / Default Encore (Metalable)
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
