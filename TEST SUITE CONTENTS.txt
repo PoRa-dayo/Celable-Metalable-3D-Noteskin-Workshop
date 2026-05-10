@@ -94,6 +94,22 @@ INVERSED SUITE:
 - Tap Explosions: Glow ITG
 
 
+KINDLED SUITE: 
+- Arrow Center Animation: On
+- Arrows: ITG TD Vibrant (Celable) / ITG TD Over-Vibrant (Metalable)
+- Hold Explosions: Glow Gold
+- Holds: Fire
+- Mine Settings:
+    + Center Animation: On
+    + Rotation: On - ITG
+    + Size: Mini
+- Mines: ITG Unquantized Falspawn Vibrant
+- Receptor Animation: On - Default
+- Receptors: Traditional Halloween
+- Rolls: ITG Note Roll Shadow
+- Tap Explosions: Spark ITG
+
+
 OUTLINED SUITE:
 - Arrow Center Animation: On
 - Arrows: Dev Toon
