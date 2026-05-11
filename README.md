@@ -103,7 +103,7 @@ In the "Previews" folder, there are animated GIF previews of every arrow option,
 <img width="600" height="156" alt="Lemma DDRainbow Vibrant" src="https://github.com/user-attachments/assets/f8355604-b559-4da4-bc9c-010e2946b726" />
 <img width="600" height="156" alt="ITG TD" src="https://github.com/user-attachments/assets/85dd80fc-7023-473f-980b-2bbc9a8b30e2" />
 <img width="600" height="156" alt="Forest Colors Over-Vibrant" src="https://github.com/user-attachments/assets/a649ee84-7974-4155-a4b7-44b2712905c1" />
-<img width="600" height="156" alt="Note ITG Ionic Vibrant" src="https://github.com/user-attachments/assets/66ad8963-a24e-47e8-a93e-43f59458f72d" />
+<img width="600" height="156" alt="Lucid Ionic Vibrant" src="https://github.com/user-attachments/assets/1e96e240-86bd-4ca1-bb95-1672a93e4430" />
 <img width="600" height="156" alt="Gemstones Crystallis Vibrant" src="https://github.com/user-attachments/assets/5ce2a46e-60a7-42df-a381-7c6a27aecbcb" />
 <img width="600" height="124" alt="SpoOky Custom ITG" src="https://github.com/user-attachments/assets/872fbe8f-9b47-4540-9db2-8430d1859125" />
 <img width="600" height="124" alt="Dev Toon" src="https://github.com/user-attachments/assets/de527c9f-1769-47a4-9674-e7e3a3304747" />
