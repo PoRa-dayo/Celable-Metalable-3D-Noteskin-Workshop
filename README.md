@@ -97,9 +97,16 @@ There are also -REFLECTIVE- and -FLATSHINE- arrow/mine types that utilize sphere
 
 ## Arrows
 There are a lot of arrow customization options (over 250 each for Celable and Metalable!) including color sets for ITG, Dev, DivideByZero, Excel+, Magnetic, Rainbow, Vivid, and other color schemes seen on other existing variants of Cel and Metal. There are also TD (Triplet Denomination) versions of some color schemes, such as ITG TD, that have different colors for 24ths and 48ths. By default the skin uses the "ITG" color set. Each color set also has multiple arrow type variations based on existing recreations of Cel and Metal (Basic, Contrast, Encore, Vibrant, Simple, etc.).
-In the "Previews" folder, there are animated GIF previews of every arrow option, except the unanimated ones which are presented with static PNG images. Every arrow preview image has labels for each quantization. As an example, here is the preview image for the default ITG arrow set.
+In the "Previews" folder, there are animated GIF previews of every arrow option, except the unanimated ones which are presented with static PNG images. Every arrow preview image has labels for each quantization. As an example, here is the preview image for some arrow sets.
 
-
+<img width="600" height="156" alt="ITG" src="https://github.com/user-attachments/assets/78e56ffc-2b03-4e30-9de3-143513d1d829" />
+<img width="600" height="156" alt="Lemma DDRainbow Vibrant" src="https://github.com/user-attachments/assets/f8355604-b559-4da4-bc9c-010e2946b726" />
+<img width="600" height="156" alt="ITG TD" src="https://github.com/user-attachments/assets/85dd80fc-7023-473f-980b-2bbc9a8b30e2" />
+<img width="600" height="156" alt="Forest Colors Over-Vibrant" src="https://github.com/user-attachments/assets/a649ee84-7974-4155-a4b7-44b2712905c1" />
+<img width="600" height="156" alt="Note ITG Ionic Vibrant" src="https://github.com/user-attachments/assets/66ad8963-a24e-47e8-a93e-43f59458f72d" />
+<img width="600" height="156" alt="Gemstones Crystallis Vibrant" src="https://github.com/user-attachments/assets/5ce2a46e-60a7-42df-a381-7c6a27aecbcb" />
+<img width="600" height="124" alt="SpoOky Custom ITG" src="https://github.com/user-attachments/assets/872fbe8f-9b47-4540-9db2-8430d1859125" />
+<img width="600" height="124" alt="Dev Toon" src="https://github.com/user-attachments/assets/de527c9f-1769-47a4-9674-e7e3a3304747" />
 
 
 The scrolling animation at the arrow's center can be switched on or off.
