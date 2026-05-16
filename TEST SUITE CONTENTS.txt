@@ -1,5 +1,5 @@
 DEFAULT SUITE: 
-- Arrow Center Animation: On - Default
+- Arrow Center Animation: On - Default (Celable/Metalable) / On - Vividable (Vividable)
 - Arrows: ITG
 - Hold Explosions: Minimal Default
 - Holds: ITG Default
