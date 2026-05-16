@@ -141,7 +141,7 @@ Hold explosions can be color customized to many different color options and also
 Holds and rolls (active and inactive) can be color customized. Every color option for ITG-styled holds/rolls has a standard and shadow version. There are also Ionic/Crystallis-styled holds/rolls which use their own color schemes, as well as Toon-styled ones based on the Toon noteskin. Feel free to mix and match different options! By default the noteskin uses the ITG-styled "default" color options for both holds and rolls. Here are some preview images of some of the hold and roll options:\
 <img width="375" height="470" alt="Default" src="https://github.com/user-attachments/assets/136e5e4e-1ae6-4fdf-b1b4-2f448a462913" />
 <img width="375" height="470" alt="RGB Shadow" src="https://github.com/user-attachments/assets/90348b7d-6ca3-49d1-89c2-dd4ec5f90bb7" />
-<img width="375" height="470" alt="Default P1" src="https://github.com/user-attachments/assets/348226e6-698f-48ed-ad8a-85289247d58d" />
+<img width="375" height="470" alt="Default P1" src="https://github.com/user-attachments/assets/a6e040ee-8ac7-4036-9b4b-6e1335a9ddcb" />
 <img width="375" height="470" alt="Gold" src="https://github.com/user-attachments/assets/139e2009-a722-4149-98ab-6e14c6aecaac" />
 
 ## Mines
