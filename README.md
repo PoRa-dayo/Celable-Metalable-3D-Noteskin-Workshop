@@ -12,6 +12,8 @@ Welcome to the "Noteskin Workshop" for "Celable" and "Metalable", noteskins that
 
 The workshop also features HD scalable recreations of the noteskins from the "Ionic" and "Crystallis" families, which were shiny variants of Cel and Metal made by VirInPro (VIP). The workshop does not contain the original [Scalable Cel (Scalable for short) and Scalable Metal noteskins made by Peter Lawrence](https://github.com/Pete-Lawrence/Peters-Noteskins) because it is already at HD scalable quality.
 
+What? Vividable? What's that?
+
 This workshop is made for use in NotITG/ITGmania/Outfox/Etterna.
 
 *(Scroll down to the Overview section for an overview of the features in this workshop, as well as some previews)*
@@ -95,9 +97,11 @@ The Vibrant variants are split into different names based on the blend mode used
 
 There are also -REFLECTIVE- and -FLATSHINE- arrow/mine types that utilize spheremaps. It's a bit experimental since not a lot of noteskins used it, but from what I've seen it should work fine in most simfiles.
 
+What? Vividable? What's that?
+
 ## Arrows
 There are a lot of arrow customization options (over 250 each for Celable and Metalable!) including color sets for ITG, Dev, DivideByZero, Excel+, Magnetic, Rainbow, Vivid, and other color schemes seen on other existing variants of Cel and Metal. There are also TD (Triplet Denomination) versions of some color schemes, such as ITG TD, that have different colors for 24ths and 48ths. By default the skin uses the "ITG" color set. Each color set also has multiple arrow type variations based on existing recreations of Cel and Metal (Basic, Contrast, Encore, Vibrant, Simple, etc.).
-In the "Previews" folder, there are animated GIF previews of every arrow option, except the unanimated ones which are presented with static PNG images. Every arrow preview image has labels for each quantization. As an example, here is the preview image for some arrow sets.
+In the "Previews" folder, there are animated GIF previews of every arrow option, except the unanimated ones which are presented with static PNG images. Every arrow preview image has labels for each quantization. As an example, here is the preview image for some arrow sets (these variants are: ITG, Lemma DDRainbow Vibrant, ITG TD, Forest Colors Over-Vibrant, Lucid Ionic Vibrant, Gemstones Crystallis Vibrant, SpoOky Custom ITG, and Dev Toon, respectively).
 
 <img width="600" height="156" alt="ITG" src="https://github.com/user-attachments/assets/78e56ffc-2b03-4e30-9de3-143513d1d829" />
 <img width="600" height="156" alt="Lemma DDRainbow Vibrant" src="https://github.com/user-attachments/assets/f8355604-b559-4da4-bc9c-010e2946b726" />
@@ -111,7 +115,7 @@ In the "Previews" folder, there are animated GIF previews of every arrow option,
 
 The scrolling animation at the arrow's center can be switched on or off.
 
-Outside of NotITG, this noteskin also supports lifts. There are a few lift types for both Celable and Metalable, these colors should be visually distinct for whataver arrow customization you use. By default, they come with the spectrum versions. Here is a preview of some of the lift animations:
+Outside of NotITG, this noteskin also supports lifts. There are a few lift types for both Celable and Metalable, these colors should be visually distinct for whataver arrow customization you use. By default, they come with the spectrum versions. Here is a preview of some of the lift animations (these variants are: Hollowed Spectrum, Chrome, Hollowed Spectrum, and Redline, respectively):\
 <img width="150" height="172" alt="Celable - Hollowed Spectrum" src="https://github.com/user-attachments/assets/169da97d-630f-44a4-afea-933bd0aeb867" />
 <img width="150" height="172" alt="Celable - Chrome" src="https://github.com/user-attachments/assets/8c10d737-8e46-4725-9580-211b9dae0782" />
 <img width="150" height="172" alt="Metalable - Hollowed Spectrum" src="https://github.com/user-attachments/assets/717c29ec-04eb-430b-b35e-0788b2da45ce" />
@@ -134,21 +138,27 @@ Hold explosions can be color customized to many different color options and also
 
 
 ## Holds and Rolls
-Holds and rolls (active and inactive) can be color customized. Every color option for ITG-styled holds/rolls has a standard and shadow version. There are also Ionic/Crystallis-styled holds/rolls which use their own color schemes, as well as Toon-styled ones based on the Toon noteskin. Feel free to mix and match different options! By default the noteskin uses the ITG-styled "default" color options for both holds and rolls. Here are some preview images of some of the hold and roll options:
+Holds and rolls (active and inactive) can be color customized. Every color option for ITG-styled holds/rolls has a standard and shadow version. There are also Ionic/Crystallis-styled holds/rolls which use their own color schemes, as well as Toon-styled ones based on the Toon noteskin. Feel free to mix and match different options! By default the noteskin uses the ITG-styled "default" color options for both holds and rolls. Here are some preview images of some of the hold and roll options:\
 <img width="375" height="470" alt="Default" src="https://github.com/user-attachments/assets/136e5e4e-1ae6-4fdf-b1b4-2f448a462913" />
 <img width="375" height="470" alt="RGB Shadow" src="https://github.com/user-attachments/assets/90348b7d-6ca3-49d1-89c2-dd4ec5f90bb7" />
 <img width="375" height="470" alt="Default P1" src="https://github.com/user-attachments/assets/348226e6-698f-48ed-ad8a-85289247d58d" />
 <img width="375" height="470" alt="Gold" src="https://github.com/user-attachments/assets/139e2009-a722-4149-98ab-6e14c6aecaac" />
 
 ## Mines
-Mines can be color customized, and come in ITG, ArrowVortex, Beta (SM3.9), Dot, Toon and VIP (Crystallis/Ionic) variants. For ITG variants, for every color option there is a regular, inverted and vibrant option. The ITG and VIP mines can also be quantized to a few common arrow color schemes (as the 1033 noteskin originally had that). By default the skin uses the "Default" color option. Here is a preview image of some of the mine color options:
+Mines can be color customized, and come in ITG, ArrowVortex, Beta (SM3.9), Dot, Toon and VIP (Crystallis/Ionic) variants. For ITG variants, for every color option there are regular, inverted and vibrant options. The ITG and VIP mines can also be quantized to a few common arrow color schemes (as the 1033 noteskin originally had that). By default the skin uses the "Default" color option. Here is a preview image of some of the mine color options (these variants are: ArrowVortex Default P2, Beta Pink, Dot Green, ITG Falspawn Vibrant, Toon Shock Vibrant, and VIP Spinel Inverted, respectively):\
+<img width="164" height="161" alt="Default P2" src="https://github.com/user-attachments/assets/6fb0a26a-4b92-4aad-a2d8-8bab1f9eb2f1" />
+<img width="164" height="161" alt="Pink" src="https://github.com/user-attachments/assets/ae9cc26e-c709-4ec8-8b90-1d4aebf38bb0" />
+<img width="164" height="161" alt="Green" src="https://github.com/user-attachments/assets/93093a75-d78f-4672-9f2f-114e0209bf03" />
+<img width="164" height="161" alt="Falspawn Vibrant" src="https://github.com/user-attachments/assets/66fa0cda-35af-4f33-b4df-915586a4c67a" />
+<img width="164" height="161" alt="Shock Vibrant" src="https://github.com/user-attachments/assets/f12d0e09-b60e-4387-ae43-c17656517c12" />
+<img width="164" height="161" alt="Spinel Inverted" src="https://github.com/user-attachments/assets/f5915128-6227-4b19-9e95-03d93560eef4" />
 
 
 The animation in the center of the mines, as well as the mines' rotation, can be switched on or off. Mines also can be adjusted to 2 different sizes. These can be customized in the Mine Settings folder.
 
 
 ## Receptors
-Receptors can be color customized and there are two types (Frame and Traditional) for both Celable and Metalable, as well as receptors for Crystallis and Ionic, and each one has numerous color options. Here are preview images of some receptor options:
+Receptors can be color customized and there are two types (Frame and Traditional) for both Celable and Metalable, as well as receptors for Crystallis and Ionic, and each one has numerous color options. Here are preview images of some receptor options (these variants are: Frame Blue, Ionic Amethyst, Traditional Ocean, Crystallis Gold, Frame Vapor, and Traditional Halloween, respectively):
 
 <img width="128" height="128" alt="Blue" src="https://github.com/user-attachments/assets/da292a23-f96c-41c6-8a4d-a6b6d2de9d6a" />
 <img width="128" height="128" alt="Amethyst" src="https://github.com/user-attachments/assets/8aa09af4-1f99-4ffb-a253-b2554f1edb15" />
@@ -159,7 +169,7 @@ Receptors can be color customized and there are two types (Frame and Traditional
 
 The receptor pulse that makes the receptors blink on beat can also be toggled on and off as well via the Receptor Animation customization folder. You can also apply the rainbow animation from the Rainbow noteskin.
 
-<img width="195" height="177" alt="On - Default" src="https://github.com/user-attachments/assets/0599b5d8-ba09-4310-b6b6-2239ff2d839f" />\
+<img width="195" height="177" alt="On - Default" src="https://github.com/user-attachments/assets/0599b5d8-ba09-4310-b6b6-2239ff2d839f" />
 <img width="195" height="177" alt="Off - No Pulse" src="https://github.com/user-attachments/assets/26f36c51-99d7-434c-9b46-a57c763be67e" />
 <img width="195" height="177" alt="Off - Fully Static" src="https://github.com/user-attachments/assets/730b7660-851e-409d-a5f5-df34bc33332d" />
 <img width="195" height="177" alt="On - Rainbow" src="https://github.com/user-attachments/assets/c6ae89eb-af50-4027-8d92-e55d396802f3" />
