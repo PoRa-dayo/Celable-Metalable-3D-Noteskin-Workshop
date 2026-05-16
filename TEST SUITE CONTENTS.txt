@@ -2,7 +2,7 @@ DEFAULT SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: ITG
 - Hold Explosions: Minimal Default
-- Holds: Default
+- Holds: ITG Default
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
@@ -18,7 +18,7 @@ ABRIDGED SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: Excel+/Exmetal+ Basic
 - Hold Explosions: Minimal White
-- Holds: DDR Hold
+- Holds: ITG DDR Hold
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - Beta
@@ -34,7 +34,7 @@ BEJEWELED SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: Crystallis/Ionic Gemstones Vibrant
 - Hold Explosions: Minimal Fire
-- Holds: Crystallis/Ionic Steel
+- Holds: VIP Crystallis/Ionic Steel
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
@@ -50,7 +50,7 @@ BEJEWELED 2 SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: Crystallis/Ionic Gemstones 2 Vibrant
 - Hold Explosions: Minimal RGB
-- Holds: Crystallis/Ionic Gold
+- Holds: VIP Crystallis/Ionic Gold
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
@@ -66,7 +66,7 @@ HIGHLIGHTED SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: Lemma DDRainbow Vibrant Animated
 - Hold Explosions: Minimal Vapor
-- Holds: Ocean
+- Holds: ITG Ocean
 - Mine Settings:
     + Center Animation: Off
     + Rotation: On - ITG
@@ -82,7 +82,7 @@ INVERSED SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: Lucid Addition
 - Hold Explosions: Minimal Falspawn
-- Holds: Halloween Shadow
+- Holds: ITG Halloween Shadow
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
@@ -98,7 +98,7 @@ KINDLED SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: ITG TD Vibrant (Celable) / ITG TD Over-Vibrant (Metalable)
 - Hold Explosions: Glow Gold
-- Holds: Fire
+- Holds: ITG Fire
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
@@ -130,7 +130,7 @@ POLISHED SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: Gemstones -REFLECTIVE- Vibrant
 - Hold Explosions: Glow Fire
-- Holds: Vapor
+- Holds: ITG Vapor
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
@@ -146,7 +146,7 @@ REINFORCED SUITE:
 - Arrow Center Animation: On - Default
 - Arrows: Bright Encore
 - Hold Explosions: Minimal Ocean
-- Holds: Default Shadow (Celable) / Default Encore (Metalable)
+- Holds: ITG Default Shadow (Celable) / ITG Default Encore (Metalable)
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
@@ -162,7 +162,7 @@ SELLABLE SUITE: (haha get it)
 - Arrow Center Animation: On - Default
 - Arrows: Bright -FLATSHINE- Gold
 - Hold Explosions: Glow Yellow
-- Holds: Gold Shadow
+- Holds: ITG Gold Shadow
 - Mine Settings:
     + Center Animation: On
     + Rotation: On - ITG
