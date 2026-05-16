@@ -180,15 +180,16 @@ The receptor pulse that makes the receptors blink on beat can also be toggled on
 - [MegaSphere](https://www.youtube.com/@MegaSphere) / [Pete-Lawrence](https://github.com/Pete-Lawrence) - creator of the original Scalable noteskins, also the inspiration for the Frame receptors.
 - MechMaelstrom - for guiding me on how to do all these noteskin things in NotITG.
 - VirInPro - Creator of the original Ionic and Crystallis noteskins. Without these original noteskins, I wouldn't know something like this is possible without spheremaps.
-- ITG3 Team - All the Encore variants were from In The Groove 3: Encore.
+- ITG3 Team - All the Encore variants were from In The Groove 3: Encore, as well as some other color schemes such as Aero and Infinity.
 - [1033Forest](https://www.youtube.com/@MrToonster) - Creator of the 1033/1034 noteskin, some color schemes used here, and also helped with making the previews.
-- ([-Jayce-]) / [Peekingboo](https://www.twitch.tv/peekingboo) - Creator of the original Toon noteskin.
+- ([-Jayce-]) / [Peekingboo](https://www.twitch.tv/peekingboo) - Creator of the original Toon and Industrial noteskins.
 - WinDEU / [Eleftheria](https://www.youtube.com/@SecretaryEle) - Creator of lateM, and Rainbow noteskins, as well as the "Magnetic" file in D.O.W.N.S. 4.
-- [LemmaEOF](https://github.com/LemmaEOF) - creator of Lemma DDRainbow color scheme present in this workshop.
-- [MrThatKid4](https://www.youtube.com/@MrThatKid4) - Playtester.
+- [LemmaEOF](https://github.com/LemmaEOF) - creator of Lemma DDRainbow color scheme.
+- [MrThatKid4](https://www.youtube.com/@MrThatKid4) - Playtester, Neon MTK color scheme.
 - [Nhan](https://nhan2k0.github.io) - Playtester.
 - [Kasser](https://www.youtube.com/@Kasser_KSR) - Playtester.
 - [Jousway](https://www.youtube.com/@jousway) - Unlimited Stepman Works.
+- Devon Irvin, SpoOky, PkGam, ducky285, banzaigtv, Thaumatarge, Step It Up Team - Various inspirations for color schemes.
 
 
 
