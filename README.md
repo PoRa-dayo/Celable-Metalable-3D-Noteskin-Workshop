@@ -154,7 +154,8 @@ Mines can be color customized, and come in ITG, ArrowVortex, Beta (SM3.9), Dot, 
 <img width="164" height="161" alt="Spinel Inverted" src="https://github.com/user-attachments/assets/f5915128-6227-4b19-9e95-03d93560eef4" />
 
 
-The animation in the center of the mines, as well as the mines' rotation, can be switched on or off. Mines also can be adjusted to 2 different sizes. These can be customized in the Mine Settings folder.
+The animation in the center of the mines, as well as the mines' rotation, can be switched on or off. Mines also can be adjusted to 2 different sizes. These can be customized in the Mine Settings folder.\
+<img width="396" height="233" alt="Mine Size Comparison" src="https://github.com/user-attachments/assets/05e672af-e938-4f65-83a8-e6f4450bbe15" />
 
 
 ## Receptors
