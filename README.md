@@ -2,7 +2,7 @@
 
 <img width="822" height="403" alt="logo" src="https://github.com/user-attachments/assets/9da63774-6378-4b3a-b3f8-65d3215794c5" />
 
-*Check the trailer video [here](https://www.youtube.com/watch?v=xnQtZBazoqs).*
+*Check the trailer video [here](https://youtu.be/CVAh9tV0GJ4).*
 
 *Check my other noteskins [here](https://github.com/PoRa-dayo/PoRa-Noteskins).*
 
