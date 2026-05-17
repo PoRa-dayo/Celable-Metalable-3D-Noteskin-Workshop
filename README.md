@@ -188,7 +188,6 @@ The receptor pulse that makes the receptors blink on beat can also be toggled on
 - [LemmaEOF](https://github.com/LemmaEOF) - creator of Lemma DDRainbow color scheme.
 - [MrThatKid4](https://www.youtube.com/@MrThatKid4) - Playtester, Neon MTK color scheme.
 - [Nhan](https://nhan2k0.github.io) - Playtester.
-- [Kasser](https://www.youtube.com/@Kasser_KSR) - Playtester.
 - [Jousway](https://www.youtube.com/@jousway) - Unlimited Stepman Works.
 - Devon Irvin, SpoOky, PkGam, ducky285, banzaigtv, Thaumatarge, Step It Up Team - Various inspirations for color schemes.
 
