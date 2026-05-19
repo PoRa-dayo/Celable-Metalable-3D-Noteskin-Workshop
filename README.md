@@ -34,14 +34,14 @@ Or HD renders of the Mines? Or templates for making your own holds and rolls? We
 - Go into the "Celable-Metalable - BASE" folder, and select the folder of the game you want to install the noteskin in ("NotITG" or "Outfox-ITGmania-Etterna"). Install the noteskin by copying the "celable-3d", "metalable-3d" and "metcelable-custom-3d" folders placed inside the folder of the game you chose. Inside your NotITG/ITGmania/Etterna game folder, paste them in "NoteSkins"/"dance" (if the game is Outfox, it will be in "Appearance"/"NoteSkins"/"dance").
 
 
-https://github.com/user-attachments/assets/eb4493ad-075d-4c7b-b586-91bba4503836
+<video width="600" src="https://github.com/user-attachments/assets/eb4493ad-075d-4c7b-b586-91bba4503836" ></video>
 
 
 These contain the base default variant of the Celable and Metalable noteskin, which look like this in-game:
 
 
 <img width="600" height="450" alt="Celable" src="https://github.com/user-attachments/assets/ec87fcc7-1edc-473d-8c5d-28c32902652e" />
-<img width="600" height="450" alt="Metalable-ezgif com-optimize" src="https://github.com/user-attachments/assets/c1063dd7-da37-4952-83d5-064356893406" />
+<img width="600" height="450" alt="Metalable-ezgif" src="https://github.com/user-attachments/assets/c1063dd7-da37-4952-83d5-064356893406" />
 
 
 
