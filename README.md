@@ -8,6 +8,8 @@
 
 Based on [HURG's Cel and Metal Noteskin Workshop for ITGMania](https://github.com/HURG-IIDX/Noteskin-Workshop-Cel-and-Metal).
 
+"Noteskin Workshops" are fully customizable "build your own" noteskin suites. With some simple copy-pasting, a workshop allows you to apply any arrow/hold/roll/mine/etc. variant that you desire to its base noteskin.
+
 Welcome to the "Noteskin Workshop" for "Celable" and "Metalable", noteskins that aim to accurately recreate the original Cel and Metal noteskins, as well as almost every other recreation of Cel and Metal ever made, in HD scalable quality. The noteskin is made to be compatible with ITG modcharting. Just about every aspect of the noteskin can be customized. All customization options have preview images that can be browsed in the "previews" folder. Please note that preview images are almost entirely presented at a lower resolution than the actual assets of the noteskin to help reduce download size.
 
 The workshop also features HD scalable recreations of the noteskins from the "Ionic" and "Crystallis" families, which were shiny variants of Cel and Metal made by VirInPro (VIP). The workshop does not contain the original [Scalable Cel (Scalable for short) and Scalable Metal noteskins made by Peter Lawrence](https://github.com/Pete-Lawrence/Peters-Noteskins) because it is already at HD scalable quality.
