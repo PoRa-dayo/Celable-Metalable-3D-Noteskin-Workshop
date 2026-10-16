@@ -254,7 +254,7 @@ page1.pack(fill="both", expand=True)
 # Image
 try:
     image = tk.PhotoImage(file="logo.png")
-    image = image.subsample(2, 2)
+    image = image.subsample(3, 3)
     image_label = tk.Label(page1, image=image)
     image_label.pack(pady=1)
 except tk.TclError:
@@ -720,9 +720,11 @@ def create_customization_dropdowns(customizations_path, previews_path):
         if category_name == "Arrows":
             arrows_notice_label = tk.Label(
                 category_frame,
-                text="Notice: Double Speed may affect Dogs animations.",
+                text="AAAAAAAAAAAAAAAAAAAAA",
                 fg="red",
-                anchor="w"
+                anchor="w",
+                justify="left",
+                wraplength=520
             )
 
         # Build this category's dropdown hierarchy
