@@ -633,11 +633,29 @@ def create_customization_dropdowns(customizations_path, previews_path):
                 continue
 
             if entry.name in TREAT_CHILDREN_AS_CATEGORIES:
-                # Treat direct children as categories
-                for child in os.scandir(entry.path):
+                children = list(os.scandir(entry.path))
+
+                # Prefer NotITG or Outfox-ITGmania-Etterna as the category root
+                preferred = next(
+                    (
+                        child for target in ("NotITG", "Outfox-ITGmania-Etterna")
+                        for child in children
+                        if child.is_dir(follow_symlinks=False)
+                        and child.name.lower() == target.lower()
+                    ),
+                    None
+                )
+
+                category_root = preferred.path if preferred else entry.path
+                category_prefix = (
+                    entry.name + "/" + preferred.name
+                    if preferred else entry.name
+                )
+
+                for child in os.scandir(category_root):
                     if child.is_dir(follow_symlinks=False):
                         folders.append({
-                            "name": entry.name + "/" + child.name,
+                            "name": category_prefix + "/" + child.name,
                             "path": child.path
                         })
             else:
@@ -678,9 +696,10 @@ def create_customization_dropdowns(customizations_path, previews_path):
         category_frame = tk.Frame(customization_dropdown_frame)
         category_frame.pack(fill="x", padx=10, pady=(12, 8))
 
+        # If a category in TREAT_CHILDREN_AS_CATEGORIES has its first child as NotITG, then it won't be included in the displayed name
         tk.Label(
             category_frame,
-            text=category_name,
+            text=category_name.replace("/", " - ").replace("NotITG", ""),
             font=("Arial", 11, "bold")
         ).pack(anchor="w")
 
