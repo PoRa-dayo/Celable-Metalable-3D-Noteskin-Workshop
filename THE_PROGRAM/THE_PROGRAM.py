@@ -745,7 +745,8 @@ def create_customization_dropdowns(customizations_path, previews_path):
                 width=30
             )
 
-            dropdown.bind("<MouseWheel>", lambda event: "break")
+            for event in ("<MouseWheel>", "<Button-4>", "<Button-5>"):
+                dropdown.bind(event, on_mousewheel)
 
             previous_button = tk.Button(
                 control_frame,
@@ -1597,39 +1598,44 @@ page2_canvas.bind("<Configure>", resize_page2_frame)
 def on_mousewheel(event):
     widget = event.widget
 
+    # Find the canvas containing the widget
     while widget is not None:
-        if isinstance(widget, ttk.Combobox):
+        if widget in (page2_canvas, page3_canvas):
+            break
+
+        parent = widget.winfo_parent()
+        if not parent:
             return "break"
 
-        # This sucks
-        if widget == page2_canvas:
-            canvas = page2_canvas
-            break
-
-        if widget == page3_canvas:
-            canvas = page3_canvas
-            break
-
         try:
-            parent_name = widget.winfo_parent()
-            if not parent_name:
-                return
+            widget = widget.nametowidget(parent)
+        except (KeyError, tk.TclError):
+            return "break"
 
-            widget = widget.nametowidget(parent_name)
+    if widget not in (page2_canvas, page3_canvas):
+        return "break"
 
-        except (KeyError, AttributeError):
-            return
-
+    # Scroll direction
+    if getattr(event, "num", None) == 4:
+        amount = -1
+    elif getattr(event, "num", None) == 5:
+        amount = 1
+    elif event.delta:
+        amount = -1 if event.delta > 0 else 1
+        if abs(event.delta) >= 120:
+            amount = -int(event.delta / 120)
     else:
-        return
+        return "break"
 
-    canvas.yview_scroll(
-        int(-1 * (event.delta / 120)),
-        "units"
-    )
+    widget.yview_scroll(amount, "units")
     return "break"
 
+# Windows / macOS
 page2_canvas.bind_all("<MouseWheel>", on_mousewheel)
+
+# Linux (X11)
+page2_canvas.bind_all("<Button-4>", on_mousewheel)
+page2_canvas.bind_all("<Button-5>", on_mousewheel)
 
 
 # ---------------------PAGE 3: SELECT A SUITE-------------------------------
@@ -2201,7 +2207,12 @@ page3_canvas.bind(
     )
 )
 
+# Windows / macOS
 page3_canvas.bind_all("<MouseWheel>", on_mousewheel)
+
+# Linux (X11)
+page3_canvas.bind_all("<Button-4>", on_mousewheel)
+page3_canvas.bind_all("<Button-5>", on_mousewheel)
 
 # --- BASE SUITES
 base_suite_frame = tk.Frame(page3_container)
@@ -2219,7 +2230,8 @@ base_dropdown = ttk.Combobox(
     state="readonly",
     values=list(BASE_SUITE_CONFIG.keys())
 )
-base_dropdown.bind("<MouseWheel>", lambda event: "break")
+for event in ("<MouseWheel>", "<Button-4>", "<Button-5>"):
+    base_dropdown.bind(event, on_mousewheel)
 base_dropdown.bind(
     "<<ComboboxSelected>>",
     lambda event: update_suite_preview(
@@ -2301,7 +2313,8 @@ test_dropdown = ttk.Combobox(
     state="readonly",
     values=list(TEST_SUITE_CONFIG.keys())
 )
-test_dropdown.bind("<MouseWheel>", lambda event: "break")
+for event in ("<MouseWheel>", "<Button-4>", "<Button-5>"):
+    test_dropdown.bind(event, on_mousewheel)
 test_dropdown.bind(
     "<<ComboboxSelected>>",
     lambda event: update_suite_preview(
@@ -2382,7 +2395,8 @@ custom_dropdown = ttk.Combobox(
     width=30,
     state="readonly"
 )
-custom_dropdown.bind("<MouseWheel>", lambda event: "break")
+for event in ("<MouseWheel>", "<Button-4>", "<Button-5>"):
+    custom_dropdown.bind(event, on_mousewheel)
 
 def refresh_saved_selection_names():
     names = list(read_saved_selections().keys())
