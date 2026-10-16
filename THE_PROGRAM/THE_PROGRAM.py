@@ -699,7 +699,7 @@ def create_customization_dropdowns(customizations_path, previews_path):
         # If a category in TREAT_CHILDREN_AS_CATEGORIES has its first child as NotITG, then it won't be included in the displayed name
         tk.Label(
             category_frame,
-            text=category_name.replace("/", " - ").replace("NotITG", ""),
+            text=category_name.replace("/", " - ").replace(" - NotITG", ""),
             font=("Arial", 11, "bold")
         ).pack(anchor="w")
 
