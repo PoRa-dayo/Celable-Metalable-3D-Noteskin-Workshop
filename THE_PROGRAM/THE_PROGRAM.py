@@ -536,10 +536,15 @@ def on_customization_selected(
     selected_node = level_options[level][index]
 
     # Map the customization category to its preview folder.
-    preview_category = PREVIEW_CATEGORY_MAP.get(
-        category_name,
-        category_name
-    )
+    preview_category = category_name
+
+    for key in sorted(PREVIEW_CATEGORY_MAP, key=len, reverse=True):
+        if (
+            preview_category == key
+            or preview_category.startswith(key + "/")
+        ):
+            preview_category = PREVIEW_CATEGORY_MAP[key] + preview_category[len(key):]
+            break
 
     # First rebuild all child dropdowns and select their defaults.
     update_customization_options(
@@ -768,10 +773,15 @@ def create_customization_dropdowns(customizations_path, previews_path):
         )
 
         # Populate dropdowns and load the initial preview
-        preview_category = PREVIEW_CATEGORY_MAP.get(
-            category_name,
-            category_name
-        )
+        preview_category = category_name
+
+        for key in sorted(PREVIEW_CATEGORY_MAP, key=len, reverse=True):
+            if (
+                preview_category == key
+                or preview_category.startswith(key + "/")
+            ):
+                preview_category = PREVIEW_CATEGORY_MAP[key] + preview_category[len(key):]
+                break
 
         PAGE2_DROPDOWNS[category_name] = dropdowns
 
@@ -939,6 +949,21 @@ def update_preview(
     if os.path.isdir(category_path):
         selected_cust_path = "/".join([category_name] + selected_names)
 
+        mapped_path = selected_cust_path
+
+        for key in sorted(PREVIEW_CATEGORY_MAP, key=len, reverse=True):
+            if mapped_path == key or mapped_path.startswith(key + "/"):
+                mapped_path = (
+                    PREVIEW_CATEGORY_MAP[key]
+                    + mapped_path[len(key):]
+                )
+                break
+
+        mapped_parts = mapped_path.split("/")
+
+        category_path = os.path.join(previews_path, mapped_parts[0])
+        mapped_selected_names = mapped_parts[1:]
+
         if any(
             selected_cust_path == path
             or selected_cust_path.startswith(path + "/")
@@ -958,7 +983,9 @@ def update_preview(
                     break
 
         elif selected_names:
-            last_selected = selected_names[-1]
+            # Use the mapped path components for preview searching
+            search_names = mapped_parts[1:]
+            last_selected = search_names[-1]
 
             # Try the original final dropdown name first.
             filename_candidates = [last_selected]
@@ -988,8 +1015,8 @@ def update_preview(
                 for path in PATH_CHECK_NON_EXACT
             )
 
-            for count in range(len(selected_names) - 1, -1, -1):
-                for subset in combinations(selected_names[:-1], count):
+            for count in range(len(search_names) - 1, -1, -1):
+                for subset in combinations(search_names[:-1], count):
                     parent_path = os.path.join(category_path, *subset)
 
                     if not os.path.isdir(parent_path):
@@ -1039,7 +1066,7 @@ def update_preview(
             # If no matching image filename exists, look for a folder
             # matching the final selection, allowing missing levels.
             if image_path is None:
-                candidates = candidate_paths(selected_names)
+                candidates = candidate_paths(search_names)
 
                 if candidates:
                     _, best_path = candidates[0]
