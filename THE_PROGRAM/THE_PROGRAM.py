@@ -407,8 +407,12 @@ PATH_CHECK_NON_EXACT = [
 ]
 PLAYER_SELECTIONS = {}
 PAGE2_DROPDOWNS = {}
+FOLDER_ORDER_EXCEPTIONS = {
+    "Holds": ["Rolls"],
+    "Hold Explosions": ["Tap Explosions"],
+}
 CATEGORY_DESCRIPTIONS = {
-    "Tap Explosions": f"NOTE: The White Fantastic tap explosion is only used in advanced timing windows in Outfox or ITGmania."
+    "Tap Explosions": f"In order: (Blue) Fantastic, White Fantastic, Excellent, Great, Decent, Way Off.\nNOTE: The White Fantastic tap explosion is only used in advanced timing windows in Outfox or ITGmania."
 }
 
 
@@ -416,6 +420,42 @@ def clean_folder_name(name):
     # Remove "(default)" at the end, ignoring capitalization
     return re.sub(r"\s*\(default\)$", "", name, flags=re.IGNORECASE)
 
+def sort_folders(folders):
+    folders.sort(key=lambda folder: folder["name"].casefold())
+
+    # Move each exception directly after its designated folder
+    for anchor, followers in FOLDER_ORDER_EXCEPTIONS.items():
+        anchor_index = next(
+            (i for i, folder in enumerate(folders)
+             if folder["name"].casefold() == anchor.casefold()),
+            None
+        )
+
+        if anchor_index is None:
+            continue
+
+        for follower in followers:
+            follower_index = next(
+                (i for i, folder in enumerate(folders)
+                 if folder["name"].casefold() == follower.casefold()),
+                None
+            )
+
+            if follower_index is None:
+                continue
+
+            item = folders.pop(follower_index)
+
+            # Find the anchor again, since removing an item shifts indices
+            anchor_index = next(
+                i for i, folder in enumerate(folders)
+                if folder["name"].casefold() == anchor.casefold()
+            )
+
+            folders.insert(anchor_index + 1, item)
+
+            # Keep multiple followers in their specified order
+            anchor = follower
 
 def scan_folders(folder_path):
     result = []
@@ -667,7 +707,7 @@ def create_customization_dropdowns(customizations_path, previews_path):
                     "path": entry.path
                 })
 
-        folders.sort(key=lambda folder: folder["name"].lower())
+        sort_folders(folders)
 
     except OSError as error:
         messagebox.showerror("Error", str(error))
