@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk,messagebox,filedialog
 from PIL import Image, ImageTk, ImageSequence
-import os, re, shutil, queue, threading, json, copy, sys
+import os, re, shutil, queue, threading, json, copy, sys, tempfile
 from pathlib import Path
 from itertools import combinations
 
@@ -407,6 +407,9 @@ PATH_CHECK_NON_EXACT = [
 ]
 PLAYER_SELECTIONS = {}
 PAGE2_DROPDOWNS = {}
+CATEGORY_DESCRIPTIONS = {
+    "Tap Explosions": f"NOTE: The White Fantastic tap explosion is only used in advanced timing windows in Outfox or ITGmania."
+}
 
 
 def clean_folder_name(name):
@@ -702,6 +705,26 @@ def create_customization_dropdowns(customizations_path, previews_path):
             text=category_name.replace("/", " - ").replace(" - NotITG", ""),
             font=("Arial", 11, "bold")
         ).pack(anchor="w")
+
+        if category_name in CATEGORY_DESCRIPTIONS:
+            labil = tk.Label(
+                category_frame,
+                text="",
+                justify="left",
+                anchor="w",
+                wraplength=560
+            )
+            labil.pack(fill="x", expand=True)
+
+            labil.config(text=CATEGORY_DESCRIPTIONS[category_name])
+
+            def update_wrap(event, label=labil):
+                width = label.winfo_width()
+                if width > 1:
+                    label.config(wraplength=width)
+
+
+            labil.bind("<Configure>", update_wrap)
 
         # Dedicated dropdown container
         dropdown_frame = tk.Frame(category_frame)
@@ -1421,35 +1444,43 @@ def install_skin(CURRENT_PATH):
         messagebox.showerror("Error", "Failed to find metcelable-custom-3d inside Celable-Metalable - BASE.")
         return False
 
-    for category, selections in PLAYER_SELECTIONS.items():
-        source_customizations = find_custom_3d_folder(
-            category,
-            selections,
-            selected_game,
-            folder_name
-        )
+    # Create a temporary working copy of source_mclb
+    with tempfile.TemporaryDirectory() as temp_dir:
+        working_mclb = os.path.join(temp_dir, "metcelable-custom-3d")
 
-        print('The source:', source_customizations)
+        # Copy the original into the working folder
+        shutil.copytree(source_mclb, working_mclb)
 
-        if source_customizations:
-            shutil.copytree(
-                source_customizations,
-                source_mclb,
-                dirs_exist_ok=True
+        # Merge customizations into the working copy
+        for category, selections in PLAYER_SELECTIONS.items():
+            source_customizations = find_custom_3d_folder(
+                category,
+                selections,
+                selected_game,
+                folder_name
             )
 
-    # Destination: CURRENT_PATH/metcelable-custom-3d or whatever name the player input
-    destination = os.path.join(CURRENT_PATH, noteskin_name_entry.get())
+            print('The source:', source_customizations)
 
-    # Remove existing destination
-    if os.path.exists(destination):
-        if os.path.isdir(destination) and not os.path.islink(destination):
-            shutil.rmtree(destination)
-        else:
-            os.remove(destination)
+            if source_customizations:
+                shutil.copytree(
+                    source_customizations,
+                    working_mclb,
+                    dirs_exist_ok=True
+                )
 
-    # Copy mclb and all its contents
-    shutil.copytree(source_mclb, destination)
+        # Destination: CURRENT_PATH/metcelable-custom-3d or user's chosen name
+        destination = os.path.join(CURRENT_PATH, noteskin_name_entry.get())
+
+        # Remove existing destination
+        if os.path.exists(destination):
+            if os.path.isdir(destination) and not os.path.islink(destination):
+                shutil.rmtree(destination)
+            else:
+                os.remove(destination)
+
+        # Copy the finished working copy to destination
+        shutil.copytree(working_mclb, destination)
 
     if selected_game == "Outfox-ITGmania-Etterna":
         messagebox.showinfo("Notice", "Noteskin installed. Reload theme and textures (F2 or F3+F6+6) in your GAME to apply the changes.")
