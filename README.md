@@ -49,6 +49,18 @@ Or HD renders of the Mines? Or templates for making your own holds and rolls? We
 <img width="300" alt="METCELABLE_PROGRAM_HuHTwfumka" src="https://github.com/user-attachments/assets/b35f08c8-7eb4-4d42-aeb8-cc785754bd3b" />
 
 
+- Inside the game, when you select a chart, right before the chart is played, when "PRESS [START] TO CHOOSE MODS"/"Press [START] again for options" shows up, do that to get the option to select your noteskin.
+
+https://github.com/user-attachments/assets/e6c9cb00-0f90-4e46-a68a-85fa3d004dd3
+
+
+*You can change your default settings for NotITG (including default noteskin) by going to the NotITG game folder, and open and edit Data/GamePrefs.ini. The default noteskin is called "scalable".*
+
+*You can change your default settings for Outfox (including default noteskin) in-game by going to the main menu, select Options -> User Experience -> Appearance Options.*
+
+*You can change your default settings for ITGmania (including default noteskin) in-game by going to the main menu, select Options -> System Options.*
+
+
 # Installation (LEGACY)
 - Download this entire workshop by clicking on the green <> Code button at the top of the page, or visit the [releases page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases/tag/v1.0.0) to download individual folders of this workshop.
 <img width="694" height="100" alt="msedge_QAZEPmSTNp" src="https://github.com/user-attachments/assets/6d8d3888-75f2-4c9d-b7b0-755268e4663b" />
@@ -71,20 +83,6 @@ These contain the base default variant of the Celable and Metalable noteskin, wh
 
 
 https://github.com/user-attachments/assets/90121cac-8983-48ad-bb33-f9c55d8b8eb4
-
-
-
-- Inside the game, when you select a chart, right before the chart is played, when "PRESS [START] TO CHOOSE MODS"/"Press [START] again for options" shows up, do that to get the option to select your noteskin.
-
-https://github.com/user-attachments/assets/e6c9cb00-0f90-4e46-a68a-85fa3d004dd3
-
-
-
-*You can change your default settings for NotITG (including default noteskin) by going to the NotITG game folder, and open and edit Data/GamePrefs.ini. The default noteskin is called "scalable".*
-
-*You can change your default settings for Outfox (including default noteskin) in-game by going to the main menu, select Options -> User Experience -> Appearance Options.*
-
-*You can change your default settings for ITGmania (including default noteskin) in-game by going to the main menu, select Options -> System Options.*
 
 
 # Customization (LEGACY)
