@@ -27,10 +27,30 @@ But before we get to the installation, are you interested in these sweet HD rend
 <img width="256" height="256" alt="metalable_shell" src="https://github.com/user-attachments/assets/23718cbd-cc5f-4f16-a97f-756380e26ad1" />
 <img width="256" height="512" alt="ITG_scroller_4th" src="https://github.com/user-attachments/assets/7544c7f7-e934-4260-a186-a782c4da5def" />
 
-Or HD renders of the Mines? Or templates for making your own holds and rolls? Well you're in luck, 'cause they're all available for download individually in the [releases page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases)! Have fun!
+Or HD renders of the Mines? Or templates for making your own holds and rolls? Well you're in luck, 'cause they're all available for download individually in the [releases page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases/tag/v1.0.0)! Have fun!
 
-# Installation
-- Download this entire workshop by clicking on the green <> Code button at the top of the page, or visit the [releases page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases) to download individual folders of this workshop.
+
+# Installation and Customization (NEW)
+- You will be customizing and installing your noteskin via THE_PROGRAM, a helper program made to provide a helpful interface for this workshop.
+
+- Download this entire workshop by clicking on the green <> Code button at the top of the page, or visit [THE_PROGRAM release page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases/tag/program) to download just enough resources to run THE_PROGRAM.
+<img width="694" height="100" alt="msedge_QAZEPmSTNp" src="https://github.com/user-attachments/assets/6d8d3888-75f2-4c9d-b7b0-755268e4663b" />
+
+- {WINDOWS USERS} Inside THE_PROGRAM folder, run METCELABLE_PROGRAM.exe. If Windows is protecting your PC, click "More info", and click "Run anyway".
+<img width="200" alt="lKYpUP4DSy" src="https://github.com/user-attachments/assets/c34ecc2b-f228-436e-9f98-3afdfcee923c" />
+<img width="200" alt="BMRA1BlZwe" src="https://github.com/user-attachments/assets/66431946-02a5-4345-9b08-89fad90c4dcd" />
+
+
+- {OTHERS} If you have Python (and the Pillow library) installed, inside THE_PROGRAM folder, you can also run METCELABLE_PROGRAM.py.
+
+- All other instructions will be told to you directly via THE_PROGRAM, so <img height="52" alt="Relax and enjoy..." src="https://github.com/user-attachments/assets/9af591cb-949e-4a89-82f0-85da44b04d4e" />
+
+<img width="300" alt="METCELABLE_PROGRAM_1hXvbHU6fl" src="https://github.com/user-attachments/assets/9f977aec-614c-4ee0-9c5d-d6a1967bfb22" />
+<img width="300" alt="METCELABLE_PROGRAM_HuHTwfumka" src="https://github.com/user-attachments/assets/b35f08c8-7eb4-4d42-aeb8-cc785754bd3b" />
+
+
+# Installation (LEGACY)
+- Download this entire workshop by clicking on the green <> Code button at the top of the page, or visit the [releases page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases/tag/v1.0.0) to download individual folders of this workshop.
 <img width="694" height="100" alt="msedge_QAZEPmSTNp" src="https://github.com/user-attachments/assets/6d8d3888-75f2-4c9d-b7b0-755268e4663b" />
 
 - Go into the "Celable-Metalable - BASE" folder, and select the folder of the game you want to install the noteskin in ("NotITG" or "Outfox-ITGmania-Etterna"). Install the noteskin by copying the "celable-3d", "metalable-3d" and "metcelable-custom-3d" folders placed inside the folder of the game you chose. Inside your NotITG/ITGmania/Etterna game folder, paste them in "NoteSkins"/"dance" (if the game is Outfox, it will be in "Appearance"/"NoteSkins"/"dance").
@@ -67,7 +87,7 @@ https://github.com/user-attachments/assets/e6c9cb00-0f90-4e46-a68a-85fa3d004dd3
 *You can change your default settings for ITGmania (including default noteskin) in-game by going to the main menu, select Options -> System Options.*
 
 
-# Customization
+# Customization (LEGACY)
 *You will only be changing the "metcelable-custom-3d" folder.*
 
 - You can check the Previews folder for previews in an easily viewable and browsable format. Use it to figure out what noteskin variant you want.
