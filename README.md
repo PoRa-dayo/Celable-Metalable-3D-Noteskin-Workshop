@@ -20,15 +20,6 @@ This workshop is made for use in NotITG/ITGmania/Outfox/Etterna.
 
 *(Scroll down to the Overview section for an overview of the features in this workshop, as well as some previews)*
 
-# DIY Package
-But before we get to the installation, are you interested in these sweet HD renders of Celable and Metalable arrows?
-
-<img width="256" height="256" alt="celable_shell" src="https://github.com/user-attachments/assets/5375ea5f-4029-4ace-a7f1-e5e11eb16591" />
-<img width="256" height="256" alt="metalable_shell" src="https://github.com/user-attachments/assets/23718cbd-cc5f-4f16-a97f-756380e26ad1" />
-<img width="256" height="512" alt="ITG_scroller_4th" src="https://github.com/user-attachments/assets/7544c7f7-e934-4260-a186-a782c4da5def" />
-
-Or HD renders of the Mines? Or templates for making your own holds and rolls? Well you're in luck, 'cause they're all available for download individually in the [releases page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases/tag/v1.0.0)! Have fun!
-
 
 # Installation and Customization (NEW)
 - You will be customizing and installing your noteskin via THE_PROGRAM, a helper program made to provide a helpful interface for this workshop.
@@ -103,6 +94,15 @@ https://github.com/user-attachments/assets/d422b059-479f-47c9-ade8-34d0110d36df
 
 - If you like what you have built in the "metcelable-custom-3d" folder, feel free to duplicate the folder and rename it to whatever you want. That way you can save your custom build, and use the "metcelable-custom-3d" folder to customize a new one!
 
+
+# DIY Package
+Aside from normal workshop functions, are you interested in these sweet HD renders of Celable and Metalable arrows?
+
+<img width="256" height="256" alt="celable_shell" src="https://github.com/user-attachments/assets/5375ea5f-4029-4ace-a7f1-e5e11eb16591" />
+<img width="256" height="256" alt="metalable_shell" src="https://github.com/user-attachments/assets/23718cbd-cc5f-4f16-a97f-756380e26ad1" />
+<img width="256" height="512" alt="ITG_scroller_4th" src="https://github.com/user-attachments/assets/7544c7f7-e934-4260-a186-a782c4da5def" />
+
+Or HD renders of the Mines? Or templates for making your own holds and rolls? Well you're in luck, 'cause they're all available for download individually in the [releases page](https://github.com/PoRa-dayo/Celable-Metalable-3D-Noteskin-Workshop/releases/tag/v1.0.0)! Have fun!
 
 # Overview
 For more than a decade there had been numerous attempts to make higher quality versions of the Cel and Metal noteskins. Most notable is the [Scalable Cel (Scalable for short) and Scalable Metal noteskins made by Peter Lawrence](https://github.com/Pete-Lawrence/Peters-Noteskins). But these are still visually different from the original Cel and Metal, and several people have been wanting for an actual HD recreation of the original thing.
