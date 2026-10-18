@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk,messagebox,filedialog
 from PIL import Image, ImageTk, ImageSequence
-import os, re, shutil, queue, threading, json, copy, sys, tempfile
+import os, re, shutil, queue, threading, json, copy, sys, tempfile, random
 from pathlib import Path
 from itertools import combinations
 
@@ -2070,6 +2070,15 @@ def batch_update_page2_dropdowns():
             dropdown.set(selection)
             dropdown.event_generate("<<ComboboxSelected>>")
 
+def randomize_page2_dropdowns():
+    for category, dropdowns in PAGE2_DROPDOWNS.items():
+        for dropdown in dropdowns:
+            options = dropdown["values"]
+
+            if options:
+                dropdown.set(random.choice(options))
+                dropdown.event_generate("<<ComboboxSelected>>")
+
 def update_suite_preview(
     previews_path,
     suite_name,
@@ -2543,6 +2552,43 @@ tk.Label(
 ).pack(anchor="w", pady=(5, 0))
 
 refresh_saved_selection_names()
+
+
+# --- THE NEFARIOUS RANDOMIZER
+random_suite_frame = tk.Frame(page3_container)
+random_suite_frame.pack(fill="x", padx=10, pady=(5, 8))
+
+tk.Label(
+    random_suite_frame,
+    text='THE NEFARIOUS RANDOMIZER',
+    font=("Arial", 11, "bold")
+).pack(anchor="w",pady=(0,5))
+
+def load_random_suite():
+
+    answer = messagebox.askyesno(
+        "Confirm Settings",
+        "This will OVERWRITE all current customizations with those of this SUITE.\nContinue?"
+    )
+
+    if not answer:
+        return
+
+    randomize_page2_dropdowns()
+
+random_set = tk.Button(
+    random_suite_frame,
+    text="Generate and Use a RANDOM SUITE",
+    command=load_random_suite
+)
+
+random_set.pack(side="left", padx=10)
+
+tk.Label(
+    page3_container,
+    text="No preview available",
+    anchor="w"
+).pack(anchor="w", pady=(5, 15))
 
 
 root.mainloop()
