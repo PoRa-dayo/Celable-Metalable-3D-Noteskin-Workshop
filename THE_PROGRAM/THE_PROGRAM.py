@@ -342,6 +342,8 @@ arrows_notice_label = None
 PREVIEW_CATEGORY_MAP = {
     "Holds": "Holds + Rolls",
     "Rolls": "Holds + Rolls",
+    "Mine Settings/Size/Normal": "Mine Settings/Size/Mine Size Comparison",
+    "Mine Settings/Size/Mini": "Mine Settings/Size/Mine Size Comparison"
 }
 #left, top, right, bottom
 PREVIEW_CROP_MAP = {
@@ -394,7 +396,7 @@ PREVIEW_MAX_HEIGHT = {
 PREVIEW_FILENAME_REMOVE_WORDS = ["Ionic", "Crystallis"]
 TREAT_CHILDREN_AS_CATEGORIES = ["Mine Settings"]
 # remove (default) from this
-PATH_HAS_ARBITRARY_IMAGE_NAMES = ["Mine Settings/Size"]
+PATH_HAS_ARBITRARY_IMAGE_NAMES = ["Mine Settings/Size/Mine Size Comparison"]
 # remove (default) from this
 PATH_CHECK_NON_EXACT = [
     "Holds/Celable/ITG/leC",
