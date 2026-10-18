@@ -2060,18 +2060,6 @@ TEST_SUITE_CONFIG = {
         }
 }
 
-def load_named_selection(name):
-    global PLAYER_SELECTIONS
-
-    saved = read_saved_selections()
-
-    if name not in saved:
-        return False
-
-    PLAYER_SELECTIONS = copy.deepcopy(saved[name])
-    batch_update_page2_dropdowns()
-    return True
-
 def batch_update_page2_dropdowns():
     for category, selections in PLAYER_SELECTIONS.items():
         dropdowns = PAGE2_DROPDOWNS.get(category, [])
@@ -2342,7 +2330,9 @@ def load_base_suite():
     
     global PLAYER_SELECTIONS
 
-    PLAYER_SELECTIONS = BASE_SUITE_CONFIG[base_dropdown.get()]
+    PLAYER_SELECTIONS = copy.deepcopy(
+            BASE_SUITE_CONFIG[test_dropdown.get()]
+        )
     batch_update_page2_dropdowns()
 
 base_set = tk.Button(
@@ -2425,7 +2415,9 @@ def load_test_suite():
     
     global PLAYER_SELECTIONS
 
-    PLAYER_SELECTIONS = TEST_SUITE_CONFIG[test_dropdown.get()]
+    PLAYER_SELECTIONS = copy.deepcopy(
+        TEST_SUITE_CONFIG[test_dropdown.get()]
+    )
     batch_update_page2_dropdowns()
 
 test_set = tk.Button(
