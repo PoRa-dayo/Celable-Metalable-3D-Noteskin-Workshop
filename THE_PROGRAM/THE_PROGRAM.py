@@ -1525,7 +1525,7 @@ def install_skin(CURRENT_PATH):
     if selected_game == "Outfox-ITGmania-Etterna":
         messagebox.showinfo("Notice", "Noteskin installed. Reload theme and textures (F2 or F3+F6+6) in your GAME to apply the changes.")
     else:
-        messagebox.showinfo("Notice", "Noteskin installed. Restart the GAME to apply the changes.\n\nOR open the in-game console (Ctrl+F9 by default) and type\nGAMESTATE:ApplyGameCommand('reloadtheme')\nto apply the changes.")
+        messagebox.showinfo("Notice", "Noteskin installed. Restart the GAME to apply the changes.")
     return True
 
 
