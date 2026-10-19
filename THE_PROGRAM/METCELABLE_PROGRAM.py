@@ -2342,7 +2342,7 @@ def load_base_suite():
     global PLAYER_SELECTIONS
 
     PLAYER_SELECTIONS = copy.deepcopy(
-            BASE_SUITE_CONFIG[test_dropdown.get()]
+            BASE_SUITE_CONFIG[base_dropdown.get()]
         )
     batch_update_page2_dropdowns()
 
